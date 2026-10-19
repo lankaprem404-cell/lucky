@@ -1,0 +1,6 @@
+{
+  "name": "Love Vault - Romantic Search & Message Requests",
+  "description": "Connect with partners and romantic soulmates in Love Vault. Features secure user search, illustrated character avatars, protected message requests, introductory notes, and private chat locks.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

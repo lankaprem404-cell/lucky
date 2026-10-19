@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#f43f5e"/>
+      <stop offset="50%" stop-color="#ec4899"/>
+      <stop offset="100%" stop-color="#9333ea"/>
+    </linearGradient>
+    <linearGradient id="innerGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#ffffff" stop-opacity="0.3"/>
+      <stop offset="100%" stop-color="#ffffff" stop-opacity="0.05"/>
+    </linearGradient>
+    <filter id="glow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="16" result="blur"/>
+      <feComposite in="SourceGraphic" in2="blur" operator="over"/>
+    </filter>
+  </defs>
+
+  <!-- Squircle Base -->
+  <rect width="512" height="512" rx="128" fill="url(#bgGrad)"/>
+  
+  <!-- Subtle Inner Specular Rim -->
+  <rect x="16" y="16" width="480" height="480" rx="112" fill="url(#innerGrad)" stroke="rgba(255,255,255,0.4)" stroke-width="4"/>
+
+  <!-- Ornate Crystalline Heart -->
+  <g filter="url(#glow)">
+    <path d="M256 420 C240 405, 120 310, 80 230 C45 160, 85 90, 165 90 C210 90, 240 120, 256 145 C272 120, 302 90, 347 90 C427 90, 467 160, 432 230 C392 310, 272 405, 256 420 Z" fill="rgba(255,255,255,0.22)" stroke="#ffffff" stroke-width="8"/>
+  </g>
+
+  <!-- Glowing "LL" Initials -->
+  <text x="256" y="270" font-family="'Outfit', system-ui, sans-serif" font-size="120" font-weight="900" fill="#ffffff" text-anchor="middle" letter-spacing="-6">LL</text>
+  
+  <!-- Heart Symbol accent below LL -->
+  <path d="M256 345 C250 340, 220 315, 210 295 C200 275, 212 255, 232 255 C244 255, 252 263, 256 270 C260 263, 268 255, 280 255 C300 255, 312 275, 302 295 C292 315, 262 340, 256 345 Z" fill="#ffd1dc" stroke="#ffffff" stroke-width="3"/>
+
+  <!-- Sparkles -->
+  <polygon points="130,130 134,142 146,146 134,150 130,162 126,150 114,146 126,142" fill="#ffffff"/>
+  <polygon points="380,120 383,130 393,133 383,136 380,146 377,136 367,133 377,130" fill="#ffffff"/>
+  <polygon points="390,360 393,368 401,371 393,374 390,382 387,374 379,371 387,368" fill="#ffffff"/>
+</svg>

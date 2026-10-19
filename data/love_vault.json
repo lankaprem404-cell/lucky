@@ -1,0 +1,361 @@
+{
+  "users": [
+    {
+      "id": "usr_juliet",
+      "username": "juliet_rose",
+      "nickname": "Juliet 🌸",
+      "avatarId": "sakura_swan",
+      "description": "Poetic soul, wildflower collector, and lover of warm lavender tea and handwritten letters.",
+      "loveMotto": "In every garden of life, soft words blossom the sweetest.",
+      "statusMood": "Writing in moonlit journals",
+      "createdAt": 1789797379954,
+      "privacy": {
+        "allowIncomingRequests": true,
+        "hideInSearch": false,
+        "readReceipts": true,
+        "notificationSound": true,
+        "introPreviews": true
+      },
+      "blockedUserIds": [],
+      "vaultPin": "1234",
+      "userCode": "LV-3XEY7E",
+      "theme": "ll_hearts"
+    },
+    {
+      "id": "usr_romeo",
+      "username": "romeo_montague",
+      "nickname": "Romeo ✨",
+      "avatarId": "blossom_fox",
+      "description": "Stargazer, acoustic melody dreamer, and hopeless believer in gentle soulmate connections.",
+      "loveMotto": "The night sky is only complete when shared with someone special.",
+      "statusMood": "Searching constellations",
+      "createdAt": 1789970179954,
+      "privacy": {
+        "allowIncomingRequests": true,
+        "hideInSearch": false,
+        "readReceipts": true,
+        "notificationSound": true,
+        "introPreviews": true
+      },
+      "blockedUserIds": [],
+      "vaultPin": "1234",
+      "userCode": "LV-UP4PEM",
+      "theme": "ll_hearts"
+    },
+    {
+      "id": "usr_celeste",
+      "username": "celeste_starlight",
+      "nickname": "Celeste 🌙",
+      "avatarId": "starlight_bunny",
+      "description": "Astrophotographer and night owl. Collecting antique postcards and vintage vinyls.",
+      "loveMotto": "Love is the gentle constellation that guides us home.",
+      "statusMood": "Listening to vintage piano",
+      "createdAt": 1790661379954,
+      "privacy": {
+        "allowIncomingRequests": true,
+        "hideInSearch": false,
+        "readReceipts": true,
+        "notificationSound": true,
+        "introPreviews": true
+      },
+      "blockedUserIds": [],
+      "vaultPin": "1234",
+      "userCode": "LV-A3LPHA",
+      "theme": "ll_hearts",
+      "partnerId": "usr_valentin"
+    },
+    {
+      "id": "usr_valentin",
+      "username": "valentin_coeur",
+      "nickname": "Valentin 🎻",
+      "avatarId": "cosmic_cat",
+      "description": "Classical cello enthusiast and cafe philosopher. Believes in love notes sealed with crimson wax.",
+      "loveMotto": "Every true harmony begins with a quiet whispered promise.",
+      "statusMood": "Composing a cello lullaby",
+      "createdAt": 1790834179954,
+      "privacy": {
+        "allowIncomingRequests": true,
+        "hideInSearch": false,
+        "readReceipts": true,
+        "notificationSound": true,
+        "introPreviews": true
+      },
+      "blockedUserIds": [],
+      "vaultPin": "1234",
+      "userCode": "LV-7AFYV3",
+      "theme": "ll_hearts",
+      "partnerId": "usr_celeste"
+    },
+    {
+      "id": "usr_cupid",
+      "username": "cupid_whisper",
+      "nickname": "Cupid 🏹",
+      "avatarId": "cupid_dove",
+      "description": "Curator of romantic vault secrets. Spreading serendipity and golden hour thoughts.",
+      "loveMotto": "Kindness is the golden arrow that never misses its mark.",
+      "statusMood": "Arranging rose bouquets",
+      "createdAt": 1791093379954,
+      "privacy": {
+        "allowIncomingRequests": true,
+        "hideInSearch": false,
+        "readReceipts": true,
+        "notificationSound": true,
+        "introPreviews": true
+      },
+      "blockedUserIds": [],
+      "vaultPin": "1234",
+      "userCode": "LV-HQSN8G",
+      "theme": "ll_hearts"
+    },
+    {
+      "id": "usr_amethyst",
+      "username": "amethyst_shy",
+      "nickname": "Shy Amethyst 💜",
+      "avatarId": "velvet_bear",
+      "description": "Quiet book lover and cozy knitwear fan. Currently taking a break from new connections.",
+      "loveMotto": "Peaceful solitude before meaningful connection.",
+      "statusMood": "Reading by candlelight",
+      "createdAt": 1791525379954,
+      "privacy": {
+        "allowIncomingRequests": false,
+        "hideInSearch": false,
+        "readReceipts": false,
+        "notificationSound": false,
+        "introPreviews": false
+      },
+      "blockedUserIds": [],
+      "vaultPin": "1234",
+      "userCode": "LV-UV2TGK",
+      "theme": "ll_hearts"
+    },
+    {
+      "id": "usr_aurora",
+      "username": "aurora_fawn",
+      "nickname": "Aurora 🌿",
+      "avatarId": "enchanted_deer",
+      "description": "Botanist and herbal tea alchemist. Forest trails, cozy blankets, and warm smiles.",
+      "loveMotto": "Deep roots weather the stormiest winds.",
+      "statusMood": "Brewing chamomile tea",
+      "createdAt": 1791957379954,
+      "privacy": {
+        "allowIncomingRequests": true,
+        "hideInSearch": false,
+        "readReceipts": true,
+        "notificationSound": true,
+        "introPreviews": true
+      },
+      "blockedUserIds": [],
+      "vaultPin": "1234",
+      "userCode": "LV-D4AYRZ",
+      "theme": "ll_hearts"
+    },
+    {
+      "id": "usr_test_alex_1_1792389997115",
+      "username": "alex_rose_one_1792389997115",
+      "nickname": "Alex Rose 🌹",
+      "avatarId": "blossom_fox",
+      "description": "First Alex",
+      "createdAt": 1792389997115,
+      "privacy": {
+        "allowIncomingRequests": true,
+        "hideInSearch": false,
+        "readReceipts": true,
+        "notificationSound": true,
+        "introPreviews": true
+      },
+      "blockedUserIds": [],
+      "userCode": "LV-BK66DS",
+      "theme": "ll_hearts"
+    },
+    {
+      "id": "usr_test_alex_2_1792389997116",
+      "username": "alex_rose_two_1792389997116",
+      "nickname": "Alex Rose 🌹",
+      "avatarId": "starlight_bunny",
+      "description": "Second Alex",
+      "createdAt": 1792389997116,
+      "privacy": {
+        "allowIncomingRequests": true,
+        "hideInSearch": false,
+        "readReceipts": true,
+        "notificationSound": true,
+        "introPreviews": true
+      },
+      "blockedUserIds": [],
+      "userCode": "LV-ECJDBE",
+      "theme": "ll_hearts"
+    },
+    {
+      "id": "usr_theme_test_1792389997116",
+      "username": "newbie_1792389997116",
+      "nickname": "New Explorer",
+      "avatarId": "sakura_swan",
+      "description": "Brand new account",
+      "createdAt": 1792389997116,
+      "privacy": {
+        "allowIncomingRequests": true,
+        "hideInSearch": false,
+        "readReceipts": true,
+        "notificationSound": true,
+        "introPreviews": true
+      },
+      "blockedUserIds": [],
+      "userCode": "LV-C75274",
+      "theme": "ll_hearts"
+    }
+  ],
+  "requests": [
+    {
+      "id": "req_1792389997116_9g53v",
+      "senderId": "usr_juliet",
+      "recipientId": "usr_test_alex_2_1792389997116",
+      "introMessage": "Introductory note to exact User B",
+      "status": "PENDING",
+      "createdAt": 1792389997116,
+      "updatedAt": 1792389997116
+    },
+    {
+      "id": "req_sample_1",
+      "senderId": "usr_romeo",
+      "recipientId": "usr_juliet",
+      "introMessage": "Hello Juliet! I noticed your love for poetry and lavender tea. I would love to connect and share favorite poems with you.",
+      "status": "ACCEPTED",
+      "createdAt": 1792387279954,
+      "updatedAt": 1792389622244,
+      "acceptedAt": 1792389622244
+    },
+    {
+      "id": "req_sample_2",
+      "senderId": "usr_cupid",
+      "recipientId": "usr_juliet",
+      "introMessage": "Greetings from the Love Vault curator! Sending you a warm welcome and wishing you joyful connections ✨",
+      "status": "DECLINED",
+      "createdAt": 1792382179954,
+      "updatedAt": 1792389749807,
+      "declinedAt": 1792389749807
+    },
+    {
+      "id": "req_sample_3",
+      "senderId": "usr_celeste",
+      "recipientId": "usr_valentin",
+      "introMessage": "Hi Valentin! Fellow classical music enthusiast here. Your cello pieces sound wonderful.",
+      "status": "ACCEPTED",
+      "createdAt": 1792216579954,
+      "updatedAt": 1792302979954,
+      "acceptedAt": 1792302979954
+    }
+  ],
+  "coupleInvitations": [
+    {
+      "id": "cinv_1792389997117_hq612",
+      "proposerId": "usr_valentin",
+      "recipientId": "usr_celeste",
+      "anniversaryDate": "2026-10-19",
+      "vowMessage": "Will you seal our couple bond in Love Vault?",
+      "status": "ACCEPTED",
+      "createdAt": 1792389997117,
+      "updatedAt": 1792389997117,
+      "acceptedAt": 1792389997117
+    },
+    {
+      "id": "cinv_sample_1",
+      "proposerId": "usr_valentin",
+      "recipientId": "usr_celeste",
+      "anniversaryDate": "2026-10-18",
+      "vowMessage": "To listening to moonlit sonatas and stargazing through every season of life together 🌙",
+      "status": "ACCEPTED",
+      "createdAt": 1792217192544,
+      "updatedAt": 1792303592544,
+      "acceptedAt": 1792303592544
+    }
+  ],
+  "messages": [
+    {
+      "id": "msg_sample_1",
+      "conversationId": "usr_celeste_usr_valentin",
+      "senderId": "usr_celeste",
+      "recipientId": "usr_valentin",
+      "text": "Hi Valentin! Fellow classical music enthusiast here. Your cello pieces sound wonderful.",
+      "createdAt": 1792216579954,
+      "read": true,
+      "isIntroNote": true
+    },
+    {
+      "id": "msg_sample_2",
+      "conversationId": "usr_celeste_usr_valentin",
+      "senderId": "usr_valentin",
+      "recipientId": "usr_celeste",
+      "text": "Thank you Celeste! That warms my heart. Are you fond of Bach’s Cello Suites?",
+      "createdAt": 1792302979954,
+      "read": true
+    },
+    {
+      "id": "msg_sample_3",
+      "conversationId": "usr_celeste_usr_valentin",
+      "senderId": "usr_celeste",
+      "recipientId": "usr_valentin",
+      "text": "Suite No. 1 in G Major is my absolute favorite for star-gazing sessions 🌌",
+      "createdAt": 1792346179954,
+      "read": true
+    },
+    {
+      "id": "msg_intro_req_sample_1",
+      "conversationId": "usr_juliet_usr_romeo",
+      "senderId": "usr_romeo",
+      "recipientId": "usr_juliet",
+      "text": "Hello Juliet! I noticed your love for poetry and lavender tea. I would love to connect and share favorite poems with you.",
+      "createdAt": 1792387279954,
+      "read": true,
+      "isIntroNote": true
+    },
+    {
+      "id": "msg_1792389635093_cv4wm",
+      "conversationId": "usr_juliet_usr_romeo",
+      "senderId": "usr_juliet",
+      "recipientId": "usr_romeo",
+      "text": "💖",
+      "createdAt": 1792389635093,
+      "read": false
+    },
+    {
+      "id": "msg_1792389774666_ff3z6",
+      "conversationId": "usr_juliet_usr_romeo",
+      "senderId": "usr_juliet",
+      "recipientId": "usr_romeo",
+      "text": "hii",
+      "createdAt": 1792389774666,
+      "read": false
+    }
+  ],
+  "reports": [],
+  "vaultMemories": [
+    {
+      "id": "mem_1",
+      "userId": "usr_juliet",
+      "title": "First Love Letter Sealed",
+      "date": "2026-09-15",
+      "note": "Inscribed our secret wishes under the autumn full moon.",
+      "category": "love_letter",
+      "createdAt": 1791093379954
+    },
+    {
+      "id": "mem_2",
+      "userId": "usr_juliet",
+      "title": "Botanical Garden Stroll",
+      "date": "2026-09-28",
+      "note": "Walked through the glasshouse conservatory surrounded by blooming orchids.",
+      "category": "date_night",
+      "createdAt": 1791698179954
+    }
+  ],
+  "rateLimits": {
+    "Search Users:usr_juliet": {
+      "count": 3,
+      "resetAt": 1792389624378
+    },
+    "Send Chat Message:usr_juliet": {
+      "count": 1,
+      "resetAt": 1792389834666
+    }
+  }
+}

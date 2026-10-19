@@ -1,0 +1,51 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script>
+      // Suppress Vite HMR WebSocket connection closed notices in AI Studio cloud iframe environment
+      (function() {
+        var isViteWs = function(str) {
+          return typeof str === 'string' && (str.indexOf('WebSocket') !== -1 || str.indexOf('@vite/client') !== -1 || str.indexOf('vite:ws') !== -1);
+        };
+        window.addEventListener('error', function(event) {
+          if (isViteWs(event && event.message) || (event && event.filename && isViteWs(event.filename))) {
+            event.stopImmediatePropagation && event.stopImmediatePropagation();
+            event.preventDefault && event.preventDefault();
+            return true;
+          }
+        }, true);
+        window.addEventListener('unhandledrejection', function(event) {
+          var r = event && event.reason;
+          var msg = (r && (r.message || r.stack)) || '';
+          if (isViteWs(msg)) {
+            event.stopImmediatePropagation && event.stopImmediatePropagation();
+            event.preventDefault && event.preventDefault();
+          }
+        }, true);
+      })();
+    </script>
+    <title>Love Vault - Romantic Search &amp; Message Requests</title>
+    <meta name="description" content="Connect with partners and romantic soulmates in Love Vault. Features secure user search, illustrated character avatars, protected message requests, introductory notes, and private chat locks." />
+    <meta property="og:title" content="Love Vault - Romantic Search &amp; Message Requests" />
+    <meta property="og:description" content="Connect with partners and romantic soulmates in Love Vault. Features secure user search, illustrated character avatars, protected message requests, introductory notes, and private chat locks." />
+    <meta property="og:type" content="website" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="theme-color" content="#f43f5e" />
+    <meta name="mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="default" />
+    <meta name="apple-mobile-web-app-title" content="Love Vault" />
+    <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
+    <link rel="icon" type="image/svg+xml" href="/icon.svg" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800&family=Plus+Jakarta+Sans:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>
+
